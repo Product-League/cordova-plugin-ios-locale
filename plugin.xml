@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-ios-locale"
+        version="1.0.0">
+    <name>IOSLocale</name>
+    <description>Sets CFBundleDevelopmentRegion and CFBundleLocalizations in the iOS Info.plist</description>
+    <license>Apache 2.0</license>
+
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion" overwrite="true">
+            <string>nl</string>
+        </config-file>
+
+        <config-file target="*-Info.plist" parent="CFBundleLocalizations" overwrite="true">
+            <array>
+                <string>nl</string>
+            </array>
+        </config-file>
+    </platform>
+</plugin>
