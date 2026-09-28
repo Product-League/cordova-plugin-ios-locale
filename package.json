@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-ios-locale",
-  "version": "1.0.0",
-  "description": "Sets CFBundleDevelopmentRegion and CFBundleLocalizations in the iOS Info.plist",
+  "version": "2.0.0",
+  "description": "Sets CFBundleDevelopmentRegion and CFBundleLocalizations in the iOS Info.plist, configurable via a preference",
   "cordova": {
     "id": "cordova-plugin-ios-locale",
     "platforms": ["ios"]
